@@ -9,6 +9,9 @@ body {
   max-width: 400px;
   padding: 1rem;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .new-item-form {
@@ -137,4 +140,8 @@ body {
 
 .list li:has(input:checked) label:hover::before {
   background: hsl(200, 100%, 30%);
+}
+
+footer {
+  margin-top: auto;
 }
