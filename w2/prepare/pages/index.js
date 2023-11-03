@@ -1,4 +1,3 @@
-// index.html
 import { useState } from "react";
 
 function Header({ title }) {
@@ -7,7 +6,6 @@ function Header({ title }) {
 
 export default function HomePage() {
   const names = ["Ada Lovelace", "Grace Hopper", "Margaret Hamilton"];
-
   const [likes, setLikes] = useState(0);
 
   function handleClick() {
